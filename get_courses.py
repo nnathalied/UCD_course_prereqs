@@ -6,7 +6,7 @@ started: 2020-10-12
 fetches and prints courses in the department <search_subject>
 you gain access to by taking <course_subject course_number>
 
-uses code from https://matix.io/extract-text-from-webpage-using-beautifulsoup-and-python/
+uses code from the tutorial https://matix.io/extract-text-from-webpage-using-beautifulsoup-and-python/
 to extract text from UC Davis General Catalog 
 
 ***'''
