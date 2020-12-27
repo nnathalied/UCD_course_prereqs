@@ -1,4 +1,4 @@
-'''*** 
+'''***
 extract.py
 uses get_courses(course_subject, course_number, search_subject, prereqs)
 from get_courses.py
@@ -9,7 +9,7 @@ fetches and prints courses in the department <search_subject>
 you gain access to by taking <course_subject course_number>
 
 uses code from https://matix.io/extract-text-from-webpage-using-beautifulsoup-and-python/
-to extract text from UC Davis General Catalog 
+to extract text from UC Davis General Catalog
 
 ***'''
 
@@ -20,7 +20,7 @@ course_number = input("3 digit, optional 1 letter course number (ex: 012, 022A):
 subject = input("department to search (ex: ECS): ")
 
 #attempt to check all subjects
-#did not work, will need database
+#will need database
 # subjects_list = []
 # f = open("subjects.txt", "r")
 # for line in f:
